@@ -1,7 +1,7 @@
 <template>
     <header class="bg-white shadow-sm py-2 px-4 flex justify-between items-center">
         <main>
-            <p class="text-xs text-gray-400">
+            <p class="text-xs text-gray-400 leading-none">
                 Project name
             </p>
             <form @submit.prevent="projectNameToggle = true" class="flex items-center">

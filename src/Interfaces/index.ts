@@ -10,4 +10,5 @@ export interface iProject {
     name: null | string,
     tasks: ITask[],
     filter: null | string,
+    onlyFavorite: false
 }
