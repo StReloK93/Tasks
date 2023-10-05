@@ -18,21 +18,19 @@
                     </button>
                 </div>
                 <div class="w-full">
-                    <button type="button" class="default-button w-full !bg-gray-300 !text-gray-800 hover:!bg-stone-300 active:!bg-gray-200">
-                        Import Project <i class="fa-light fa-arrow-up-to-line ml-2"></i>
-                    </button>
+                    <Import />
                 </div>
-
             </main>
         </form>
     </section>
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue';
+import { ref } from 'vue'
 import { useProjectStore } from './../store/useProjectStore'
-const projectName = ref(null)
+import Import from '../components/Import.vue'
 const projectStore = useProjectStore()
+const projectName = ref(null)
 
 function createProject(){
     projectStore.project.name = projectName.value

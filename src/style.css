@@ -12,7 +12,20 @@
     @apply px-3 py-1 rounded-sm shadow-md inline-flex justify-center items-center bg-pink-500 text-white hover:bg-pink-700 active:bg-pink-400;
 }
 
+.mini-button {
+    @apply w-10 h-10 rounded-full hover:bg-gray-100 active:bg-gray-50 inline-flex justify-center items-center;
+}
+
 
 .default-input{
     @apply p-1 border-b border-gray-400 w-full outline-none text-gray-600;
 }
+
+::-webkit-scrollbar {
+    width: 3px;
+    background-color: white;
+ }
+ 
+ ::-webkit-scrollbar-thumb {background-color: #ec4899}
+ ::-webkit-scrollbar-thumb:hover {background-color: #b6303b}
+ 

@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "pinia": "^2.1.6",
+    "sweetalert2": "^11.7.31",
     "typescript": "^5.2.2",
     "vue": "^3.3.4"
   },

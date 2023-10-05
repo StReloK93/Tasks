@@ -14,4 +14,4 @@ function setStorageKey(key:string, base:string){
     sessionStorage.setItem(key, base)
 }
 
-export { getStorageKey , setStorageKey}
+export { getStorageKey , setStorageKey }
